@@ -1,3 +1,4 @@
+package Module_1.HelloWorldApp;
 /*
  Suddala, Deepthi. (2025). CIS 505 Intermediate Java Programming.
  Bellevue University.
@@ -14,9 +15,9 @@ public class SuddalaHelloWorld
     public static void helloworld(String firstName, String lastName)
     {
         System.out.print(String.format("Hello World from %s %s", firstName, lastName));
-    } //end helloWorld7
+    } //end helloWorld
     public static void main(String[] args)
     {
         helloworld("Deepthi","Suddala"); //Call helloWorld method with the values "Deepthi" and "Suddala"
     } //end main
-} //end Assignment1
+} //end SuddalaHelloWorld
